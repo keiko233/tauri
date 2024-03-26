@@ -9,6 +9,7 @@ LangString createDesktop ${LANG_PORTUGUESEBR} "Criar atalho na área de trabalho
 LangString dontUninstall ${LANG_PORTUGUESEBR} "Não desinstalar"
 LangString dontUninstallDowngrade ${LANG_PORTUGUESEBR} "Não desinstalar (Instalar versão anterior sem desinstalar está desabilitado nesse instalador)"
 LangString failedToKillApp ${LANG_PORTUGUESEBR} "Falha ao fechar ${PRODUCTNAME}. Por favor feche a janela dele primeiro e tente novamente"
+LangString installDirNotEmpty ${LANG_SIMPCHINESE} "O diretório de instalação selecionado não está vazio. Por favor, escolha um diretório vazio!"
 LangString installingWebview2 ${LANG_PORTUGUESEBR} "Instalando WebView2..."
 LangString newerVersionInstalled ${LANG_PORTUGUESEBR} "Uma nova versão do ${PRODUCTNAME} já está instalado! Não é recomendado instalar uma versão anterior. Se realmente deseja instalar essa versão antiga, é recomendado desinstalar a versão atual primeirl. Selecione a operação que deseja executare clique Próximo para continuar."
 LangString older ${LANG_PORTUGUESEBR} "mais antiga"

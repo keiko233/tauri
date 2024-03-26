@@ -9,6 +9,7 @@ LangString createDesktop ${LANG_JAPANESE} "デスクトップショートカッ�
 LangString dontUninstall ${LANG_JAPANESE} "アンインストールしない"
 LangString dontUninstallDowngrade ${LANG_JAPANESE} "アンインストールしない (このインストーラーでは、アンインストールをせずにダウングレードすることはできません)"
 LangString failedToKillApp ${LANG_JAPANESE} "${PRODUCTNAME} の終了に失敗しました。動作中のプログラムを終了し、もう一度やり直してください。"
+LangString installDirNotEmpty ${LANG_SIMPCHINESE} "選択したインストールディレクトリは空ではありません。空のディレクトリを選択してください！"
 LangString installingWebview2 ${LANG_JAPANESE} "WebView2 をインストール中です..."
 LangString newerVersionInstalled ${LANG_JAPANESE} "既に新しいバージョンの ${PRODUCTNAME} がインストールされています。古いバージョンをインストールすることは推奨されません。どうしてもこの旧バージョンをインストールしたい場合は、先に現行バージョンをアンインストールしておく方がよいでしょう。実行したい操作を選択し、「次へ」をクリックして続行します。"
 LangString older ${LANG_JAPANESE} "旧"

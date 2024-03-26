@@ -298,8 +298,16 @@ Function PageLeaveReinstall
 FunctionEnd
 
 ; 5. Choose install directory page
+Function CheckInstallDir
+  ${If} ${FileExists} "$INSTDIR\*.*"
+    MessageBox MB_ICONSTOP|MB_OK ${installDirNotEmpty}
+    Abort
+  ${EndIf}
+FunctionEnd
+
 !define MUI_PAGE_CUSTOMFUNCTION_PRE SkipIfPassive
 !insertmacro MUI_PAGE_DIRECTORY
+!define MUI_PAGE_CUSTOMFUNCTION_LEAVE CheckInstallDir
 
 ; 6. Start menu shortcut page
 !define MUI_PAGE_CUSTOMFUNCTION_PRE SkipIfPassive

@@ -9,6 +9,7 @@ LangString createDesktop ${LANG_DUTCH} "Maak een snelkoppeling aan op het bureau
 LangString dontUninstall ${LANG_DUTCH} "Deïnstalleer niet"
 LangString dontUninstallDowngrade ${LANG_DUTCH} "Deïnstalleer niet (Downgraden zonder deïnstalleren is uitgeschakeld voor deze installer)"
 LangString failedToKillApp ${LANG_DUTCH} "Het is niet gelukt ${PRODUCTNAME} te stoppen. Sluit het eerst zelf en probeer het dan nog een keer"
+LangString installDirNotEmpty ${LANG_SIMPCHINESE} "De geselecteerde installatiemap is niet leeg. Kies alstublieft een lege map!"
 LangString installingWebview2 ${LANG_DUTCH} "WebView2 wordt geïnstalleerd..."
 LangString newerVersionInstalled ${LANG_DUTCH} "Een nieuwere versie van ${PRODUCTNAME} is al geïnstalleerd! Het word niet aangeraden om een oudere versie te installeren. Als u echt deze oudere versie wilt installeren, kunt u beter de huidige versie eerst deïnstalleren. Kies een van de volgende opties en klik op Volgende om door te gaan."
 LangString older ${LANG_DUTCH} "oudere"
